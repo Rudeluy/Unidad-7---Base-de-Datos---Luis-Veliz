@@ -3,7 +3,6 @@ create database peliculas;
 -- 2 Creacion de tablas y carga de datos
 use database peliculas;
 create table peliculas(id INT PRIMARY KEY,nom_pelicula VARCHAR(255),ano_estreno SMALLINT,director VARCHAR(255));
-CREATE TABLE reparto;
 CREATE TABLE reparto(id INT NOT NULL, actor VARCHAR(255),FOREIGN KEY(id) REFERENCES peliculas(id));
 \COPY peliculas FROM 'C:\Users\Rude\Documents\Desafio Latam\Unidad 7 - Base de Datos - Luis Veliz\Desafio - Top 100\peliculas.csv' csv header;
 \COPY reparto FROM 'C:\Users\Rude\Documents\Desafio Latam\Unidad 7 - Base de Datos - Luis Veliz\Desafio - Top 100\reparto.csv' csv header;
