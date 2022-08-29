@@ -63,8 +63,7 @@ COMMIT;
 /** Requerimiento 3**/
 \set AUTOCOMMIT off
 
-INSERT INTO cliente (nombre, email)
-VALUES ('luis veliz', 'lveliz@gmail.com');
+INSERT INTO cliente (nombre, email) VALUES ('luis veliz', 'lveliz@gmail.com');
 
 SELECT * FROM cliente;
 
