@@ -26,8 +26,9 @@ exit
 
 
 -- desde SQL postgres
-
-
+/**contenido de c:biblioteca.sql 
+********************************************************************************************
+**/
 
 -- -----------------------------------------------------
 -- Table socios
@@ -103,6 +104,7 @@ CREATE TABLE prestamo (
 ;
 
 
+
 /** 2. Se deben insertar los registros en las tablas correspondientes **/
 
 -- -----------------------------------------------------
@@ -149,6 +151,11 @@ INSERT INTO prestamo (idprestamo, id_socio, id_libro, fecha_pres, fecha_dev) VAL
 INSERT INTO prestamo (idprestamo, id_socio, id_libro, fecha_pres, fecha_dev) VALUES (6, 1, 4, '2020-01-31', '2020-02-12');
 INSERT INTO prestamo (idprestamo, id_socio, id_libro, fecha_pres, fecha_dev) VALUES (7, 3, 2, '2020-01-31', '2020-02-12');
 
+
+
+/** Fin de contenido  de c:biblioteca.sql 
+******************************************************************************************** 
+**/
 
 /** Requerimiento 2**/
 
